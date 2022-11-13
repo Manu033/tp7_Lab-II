@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página de ejemplo para mostrar la implementación de formularios en HTML">
+        <meta name="keywords" content="HTML, estructura de una pagina HTML, forms, fieldset, legend, label, input, button, datalist, select, textarea">
+        <title>15-input-forms</title>
+        <style type="text/css">
+            legend{
+                font-weight: bold;
+            }
+            input {
+                margin-top: 10px;
+            }
+            ul{
+                list-style-type:none;
+            }
+            /* li{
+                border: solid 1px;
+            } */
+            input[type="radio"], input[type="checkbox"]{
+                vertical-align:middle;
+                margin-top: 0px;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Ficha de inscripción
+            </h1>
+        </header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend>
+                        Datos personales
+                    </legend>
+                    <ol>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input id="name" type="text" required autofocus>
+                            <label for="surname">Apellido:</label>
+                            <input id="surname" type="text" required>
+                        </li>
+                        <li>
+                            <label for="birth">Nacimiento:</label>
+                            <input id="birth" type="date" min="1950-01-01" max="2022-12-31" value="1950-01-01">
+                        </li>
+                        <li>
+                            <label for="dni">DNI:</label>
+                            <input id="dni" type="number" placeholder="Sólo escriba números" minlength="7">
+                        </li>
+                        <li>
+                            <label for="phone">Teléfono:</label>
+                            <input id="phone" type="text" placeholder="Su teléfono celular">
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input id="email" type="text" required>
+                        </li>
+                        <li>
+                            <label for="provincia">Provincia donde reside:</label>
+                            <input id="provincia" type="list" list="provincias">
+                            <datalist id="provincias">
+                                <option value="Buenos Aires"></option>
+                                <option value="Catamarca"></option>
+                                <option value="Chaco"></option>
+                                <option value="Chubut"></option>
+                                <option value="Cordoba"></option>
+                                <option value="Corrientes"></option>
+                                <option value="Entre Rios"></option>
+                                <option value="Formosa"></option>
+                                <option value="Jujuy"></option>
+                                <option value="La Pampa"></option>
+                                <option value="La Rioja"></option>
+                                <option value="Mendoza"></option>
+                                <option value="Misiones"></option>
+                                <option value="Neuquen"></option>
+                                <option value="Rio Negro"></option>
+                                <option value="Salta"></option>
+                                <option value="San Juan"></option>
+                                <option value="San Luis"></option>
+                                <option value="Santa Cruz"></option>
+                                <option value="Santa Fe"></option>
+                                <option value="Sgo. del Estero"></option>
+                                <option value="Tierra del Fuego"></option>
+                               <option value="Tucuman"></option>
+                            </datalist>
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Otras informaciones
+                    </legend>
+                    <ol start="6">
+                        <li>
+                            <label for="field1">Estado General de Salud:</label>
+                            <span>0</span>
+                            <input id="field1" type="range" step="1" min="0" max="5">
+                            <span>5</span>
+                        </li>
+                      <li>
+                        <label for="antecedente">Antecedente de deporte:</label>
+                        <input type="antecedente" type="text">
+                      </li>
+                      <li>
+                        <label for="deporte">Servicio o deporte que te motivan a la inscripción al club:</label>
+                        <input id="deporte" type="text" >
+                     </li>
+                 
+                  
+                    </ol>
+                </fieldset>
+                <input type="reset" value="Borrar formulario">
+                <input type="submit" value="Enviar ficha">
+            </form>
+        </main>
+        <footer>
+        </footer>
+    </body>
+    </html>
+
+
+</body>
+</html>
