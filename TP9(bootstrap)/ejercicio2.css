@@ -1,0 +1,217 @@
+.title_navbar{
+    padding-bottom: 0;
+    margin-left: 30px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.title_navbar_edit{
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+.contenedor_nav .nav-link{
+    height: 60px;
+    width: 100px;
+    display:table-cell;
+    vertical-align:middle;  
+}
+
+
+.nav-item{
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/*---CONTENEDOR PRINCIPAL---*/
+.conteiner_principal{
+    /*https://www.gimnasiogym.net/wp-content/uploads/2020/07/press-de-banca.jpg*/
+    background-image: url("https://www.gimnasiogym.net/wp-content/uploads/2020/07/press-de-banca.jpg") ;
+    background-size: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+.cuadrado_medio{
+    margin: auto;
+    width: 50%;
+    padding: 12% 0 12%;
+    text-align: center;
+}
+.text_principal{
+    color: white;
+    font-weight: 500;
+}
+
+.playlist{
+    color: white;
+    font-size: 100%;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.my-icon {
+    vertical-align: text-bottom;
+    margin-bottom: -4px;
+}
+
+/*---CONTENEDOR DEL MEDIOL---*/
+
+.conteiner_medio{
+    background-color: white;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    padding: 40px 0 40px;
+}
+
+.plan{
+    text-align: center;
+}
+.centrar-listas {
+    max-width: 350px;
+	text-align: left;
+	display: inline-block;
+    font-weight: lighter;
+}
+
+/*---CONTENEDOR ULTIMO---*/
+
+.conteiner_final{
+    background-color: black;
+    /* padding: 40px 0 40px; */
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+    
+}
+.contacto_f{
+    padding-top: calc(40vmax / 10);
+     padding-bottom: calc(40vmax / 10);
+     padding-right: 4vw;
+     padding-left: 4vw;
+     margin: 0 auto;
+     box-sizing: content-box;
+     padding-top: 0px;
+     padding-bottom: 0px;
+}
+.presentacion{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.contac_redes{
+    padding: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.acom_img{
+    text-align: center;
+
+}
+.centrado_item{
+    margin: auto;
+}
+.acom_log{
+    text-align: center;
+}
+
+/*-----CONTENEDOR FORMULARIO-----*/
+.conteiner_formulario{
+    background-image: url(../Imagenes/fondosalagym.jpg);
+    background-size: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+#contacto{
+    height: 100vh;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    
+}
+
+#formulario{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.two-fields{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-text, .input-email, .textarea{
+    border: 1px solid #b4b4b4;
+    background: #fff;
+    color: #888;
+    outline: none;
+    padding: 15px 60px;
+    height: 45px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.input-text, .input-email{
+   width: 100%; 
+}
+
+.inputConIcon{
+    position: relative;
+    width: 48%;
+}
+
+.inputConIcon i{
+    position: absolute;
+    left: 0;
+    padding: 14px 15px;
+    background: #888;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.textareaIcon{
+    width: 100%;
+}
+
+.textareaIcon i{
+    width: 2%;
+    background: transparent;
+    color: #888;
+    padding: 0;
+    font-size: 25px;
+    left: 17px;
+    top: 13px; 
+    transition: all 0.5s;  
+}
+
+.inputConIcon input:focus,
+.inputConIcon textarea:focus{
+    border: 1px solid var(--color-primario);
+}
+
+.inputConIcon input:focus + i{
+    background: var(--color-primario);   
+}
+
+.inputConIcon textarea:focus + i{
+    color: var(--color-primario);   
+}
+
+.fields-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-input{
+    padding: 15px 50px;
+}
+
+.btn-input:hover{
+    padding: 15px 65px;
+}

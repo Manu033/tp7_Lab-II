@@ -1,0 +1,32 @@
+.conteiner-incial{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:x-large;
+}
+p{
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+}
+.epigrafe{
+    color: grey; 
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: small;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+h1{
+    color: blue;
+}
+.fecha{
+    color: grey; 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: small;
+}
